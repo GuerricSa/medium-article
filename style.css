@@ -1,0 +1,57 @@
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #A0A0A0;
+}
+
+header {
+  background: url(https://wallpapers.com/images/featured/1440p-1zgeq4ny98yzpzkp.jpg);
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+header p {
+  font-style: italic;
+  font-size: 30px;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+div {
+  width: 70%;
+  margin: 50px auto;;
+}
+
+.link {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link:hover {
+  background-image: none;
+  background-color: aqua;
+}
+
+@media(max-width: 768px) {
+  header {
+    height: 150px;
+    padding-top: 20px;
+  }
+}
